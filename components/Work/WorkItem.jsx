@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Badge } from "../ui/badge";
 
-const WorkItem = ({ category, img, title }) => {
+const WorkItem = ({ category, img, title, description }) => {
   return (
     <div>
       <div
@@ -23,6 +23,7 @@ const WorkItem = ({ category, img, title }) => {
       <div className="flex items-center justify-center">
         <div className="flex-1">
           <h3 className="h3">{title}</h3>
+          <p>{description}</p>
         </div>
         
       </div>

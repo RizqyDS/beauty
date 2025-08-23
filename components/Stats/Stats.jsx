@@ -30,7 +30,7 @@ const Stats = () => {
   const inView = useInView(ref, { treshold: 0.2 });
 
   return (
-    <div ref={ref} className="bg-accent py-10 w-full">
+    <div ref={ref} className="bg-accent mt-[70px] py-10 w-full">
       <div className="container mx-auto h-full">
         <div
           className="text-white flex flex-col items-center justify-between 

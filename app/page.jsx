@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
-import Services from "@/components/Services";
 import Work from "@/components/Work/Work";
 import Testimonial from "@/components/Testimonial";
 import Footer from "@/components/Footer";
@@ -14,6 +13,7 @@ import Steps from "@/components/Steps";
 import Gallery from "@/components/Gallery";
 import Topbar from "@/components/Topbar";
 import Header from "@/components/Header";
+import AboutUs from "@/components/AboutUs";
 
 const Home = () => {
   const [headerActive, setHeaderActive] = useState(false);
@@ -46,7 +46,7 @@ const Home = () => {
       </div>
       <Hero />
       <Features />
-      <Services />
+      <AboutUs />
       <Steps />
       <Stats />
       <Work />
