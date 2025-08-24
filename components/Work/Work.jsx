@@ -3,79 +3,80 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import AnimatedText from "../AnimatedText";
 import WorkItem from "./WorkItem";
+import Pretitle from "../Pretitle";
 
 // sample data for projects with various categories
 const data = [
   {
     category: "Bedah Wajah",
-    img: "/assets/work/industrial/industrial-1.jpg",
+    img: "/assets/work/bedahWajah/work-1.png",
     title: "Rhinoplasty (Operasi Hidung)",
     description: "Hidung mancung natural, sesuai proporsi wajah.",
   },
   {
     category: "Bedah Wajah",
-    img: "/assets/work/industrial/industrial-2.png",
+    img: "/assets/work/bedahWajah/work-2.png",
     title: "Blepharoplasty",
     description: "Hidung mancung natural, sesuai proporsi wajah.",
   },
   {
     category: "Bedah Wajah",
-    img: "/assets/work/industrial/industrial-3.png",
+    img: "/assets/work/bedahWajah/work-3.png",
     title: "Operasi Rahang & Dagu ",
     description: "Menyempurnakan kontur wajah.",
   },
   {
     category: "Bedah Wajah",
-    img: "/assets/work/industrial/industrial-4.png",
+    img: "/assets/work/bedahWajah/work-4.png",
     title: "Face Lift",
     description: "Mengencangkan kulit wajah untuk tampilan awet muda.",
   },
   {
     category: "Bedah Payudara",
-    img: "/assets/work/industrial/industrial-1.jpg",
+    img: "/assets/work/bedahPayudara/work-1.png",
     title: "Breast Augmentation",
     description:
       "Membesarkan ukuran payudara dengan implan berkualitas medis tinggi.",
   },
   {
     category: "Bedah Payudara",
-    img: "/assets/work/industrial/industrial-2.png",
+    img: "/assets/work/bedahPayudara/work-2.png",
     title: "Breast Lift",
     description: "Mengencangkan bentuk payudara.",
   },
   {
     category: "Bedah Payudara",
-    img: "/assets/work/industrial/industrial-3.png",
+    img: "/assets/work/bedahPayudara/work-3.png",
     title: "Breast Reduction",
     description: "Mengurangi ukuran payudara yang terlalu besar.",
   },
   {
     category: "Pembentukan Tubuh",
-    img: "/assets/work/industrial/industrial-4.png",
+    img: "/assets/work/pembentukan/work-1.png",
     title: "Liposuction",
     description: "Menghilangkan lemak membandel.",
   },
   {
     category: "Pembentukan Tubuh",
-    img: "/assets/work/industrial/industrial-4.png",
+    img: "/assets/work/pembentukan/work-2.png",
     title: "Tummy Tuck ",
     description: "Mengencangkan perut pasca melahirkan.",
   },
   {
     category: "Pembentukan Tubuh",
-    img: "/assets/work/industrial/industrial-4.png",
+    img: "/assets/work/pembentukan/work-3.png",
     title: "Brazilian Butt Lift",
     description: "Membentuk bokong ideal.",
   },
   {
     category: "Perawatan Non-Bedah",
-    img: "/assets/work/industrial/industrial-4.png",
+    img: "/assets/work/perawatan/work-1.png",
     title: "Filler & Botox ",
     description: "Peremajaan wajah instan.",
   },
   {
     category: "Perawatan Non-Bedah",
-    img: "/assets/work/industrial/industrial-4.png",
+    img: "/assets/work/perawatan/work-2.png",
     title: "Thread Lift",
     description: "Mengencangkan kulit tanpa operasi.",
   },
@@ -96,19 +97,19 @@ const Work = () => {
 
   // create tab data with "all" category and unique categories from data
   const tabData = [
-    { category: "all" },
+    { category: "all services" },
     ...uniqueCategories.map((category) => ({ category })),
   ];
 
   // state to manage the currently selected tab
-  const [tabValue, setTabValue] = useState("all");
+  const [tabValue, setTabValue] = useState("all services");
   // number of items to show initially
   const [visibleItems, setVisibleItems] = useState(6);
 
   //filter work items based on the selected tab
   const filterWork =
-    tabValue === "all"
-      ? data.filter((item) => item.category !== "all")
+    tabValue === "all services"
+      ? data.filter((item) => item.category !== "all services")
       : data.filter((item) => item.category === tabValue);
 
   // handle loading more items
@@ -118,14 +119,15 @@ const Work = () => {
   };
 
   return (
-    <section className="pt-24 min-h-[1000px]" id="services">
+    <section className="pt-24 min-h-[1000px] " id="services">
       <div className="container mx-auto">
+        <Pretitle text="Pelayanan Kami" center />
         <AnimatedText
-          text="Pelayanan Kami"
+          text="Jelajahi Koleksi Pelayanan keunggulan"
           textStyles="h2 mb-[30px] text-center xl:mb-0"
         />
         <Tabs
-          defaultValue="all"
+          defaultValue="all services"
           className="w-full  flex flex-col mt-12 items-center"
         >
           <div
@@ -142,7 +144,11 @@ const Work = () => {
                   <TabsTrigger
                     value={item.category}
                     key={index}
-                    className="capitalize w-[180px]"
+                    className={`uppercase w-[200px] h-[50px] ${
+                      setTabValue === item.category
+                        ? "text-white"
+                        : "text-primary"
+                    }`}
                     onClick={() => setTabValue(item.category)}
                   >
                     {item.category}
@@ -154,7 +160,7 @@ const Work = () => {
 
           {/* render content for the selected tab */}
           <TabsContent value={tabValue} className="w-full">
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-[30px]">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-[10px]">
               <AnimatePresence>
                 {filterWork.slice(0, visibleItems).map((item, index) => (
                   <motion.div
