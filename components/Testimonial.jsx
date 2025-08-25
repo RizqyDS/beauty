@@ -71,9 +71,9 @@ const Testimonial = () => {
   return (
     <div className="mt-28 py-[80px] overflow-hidden shadow-custom">
       <div className="container mx-auto">
-      <Pretitle text="Testimonials" center />
+      <Pretitle text="Testimoni" center />
         <AnimatedText
-          text="What Our Clients Say"
+          text="Apa yang klien kami katakan?"
           textStyles="h2 mb-[30px] xl:mb-[60px] text-center"
         />
         <div className="flex flex-col lg:flex-row gap-12">

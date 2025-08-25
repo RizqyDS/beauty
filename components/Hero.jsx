@@ -5,7 +5,6 @@ import { Link as ScrollLink } from "react-scroll";
 import CompanyLogo from "./CompanyLogo";
 import { FaCrown, FaStar } from "react-icons/fa";
 import { IoChatbubbleEllipsesSharp, IoPeople } from "react-icons/io5";
-
 const Hero = () => {
   return (
     <section
@@ -33,18 +32,17 @@ const Hero = () => {
             berkelas internasional.
           </p>
           <div className="flex gap-5">
-            <ScrollLink to="services" smooth>
-              <button className="btn flex gap-2 btn-accent mb-8 rounded-[25px] hover:scale-110 font-semibold transition duration-300">
-                Explore Our Services
-              </button>
-            </ScrollLink>
+            <button className="btn flex gap-2 btn-accent mb-8 rounded-[25px] hover:scale-110 font-semibold transition duration-300">
+              Intro Video
+            </button>
+
             <button className="btn flex gap-2 btn-accent mb-8 rounded-[25px] hover:scale-110 font-semibold transition duration-300">
               <IoChatbubbleEllipsesSharp className="text-2xl" />
               Konsultasi Gratis
             </button>
           </div>
         </div>
-        
+
         {/* image */}
         <div className="hidden xl:flex w-[56vw] h-[900px] absolute top-0 right-0">
           <div className="absolute w-[588px] h-[625px] top-10 z-40 right-[15.5vw] rounded-full bg-accent">

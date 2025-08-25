@@ -10,7 +10,7 @@ import Stats from "@/components/Stats/Stats";
 import Faq from "@/components/Faq/Faq";
 import Features from "@/components/Features";
 import Steps from "@/components/Steps";
-import Gallery from "@/components/Gallery";
+import Gallery from "@/components/Gallery/Gallery";
 import Topbar from "@/components/Topbar";
 import Header from "@/components/Header";
 import AboutUs from "@/components/AboutUs";

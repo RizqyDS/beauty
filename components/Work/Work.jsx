@@ -160,7 +160,7 @@ const Work = () => {
 
           {/* render content for the selected tab */}
           <TabsContent value={tabValue} className="w-full">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-[10px]">
+            <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-[20px]">
               <AnimatePresence>
                 {filterWork.slice(0, visibleItems).map((item, index) => (
                   <motion.div
