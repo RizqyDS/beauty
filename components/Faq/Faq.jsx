@@ -6,24 +6,24 @@ import { fadeIn } from "@/lib/variants";
 
 const faqItemsData = [
   {
-    title: "How long does a calibration usually take?",
-    description: "We could finish for 5-7 days after the entry queue.",
+    title: "Perawatan apa saja yang tersedia di klinik kecantikan ini?",
+    description: "Kami menyediakan berbagai layanan seperti facial, perawatan kulit berjerawat, anti-aging, filler & botox, treatment laser, hingga body contouring. Semua ditangani oleh tenaga medis profesional.",
   },
   {
-    title: "Do I need qoutation for my equipment need calibrated?",
-    description: "Yes, to make sure list and order are match.",
+    title: "Apakah perawatan di klinik ini aman?",
+    description: "Ya, seluruh perawatan dilakukan oleh dokter berpengalaman dengan peralatan berstandar medis, serta menggunakan produk yang sudah terdaftar BPOM dan aman digunakan.",
   },
   {
-    title: "Can We request this work order onsite?",
-    description: "Yes but make sure you're confirm to our team afte the qoutation.",
+    title: "Berapa lama hasil perawatan akan terlihat?",
+    description: "Setiap orang memiliki kondisi kulit berbeda. Beberapa perawatan bisa menunjukkan hasil langsung setelah sesi pertama, sementara lainnya membutuhkan beberapa kali treatment untuk hasil optimal.",
   },
   {
-    title: "How can we prove that calibration already done?",
-    description: "Currently, We put a Sticker calibration on the equipment and Certification for validation.",
+    title: "Apakah perlu konsultasi sebelum melakukan perawatan?",
+    description: "Tentu. Konsultasi awal sangat penting agar dokter dapat menganalisis kondisi kulit Anda dan merekomendasikan perawatan yang paling sesuai dengan kebutuhan.",
   },
   {
-    title: "Where we can send a qoutation or equipment list?",
-    description: "There's a button Get a Qoute and contact information at the topbar.",
+    title: "Bagaimana cara membuat janji atau booking perawatan?",
+    description: "Anda bisa langsung menghubungi kami melalui WhatsApp, telepon, atau melakukan booking online melalui website kami. Tim kami siap membantu mengatur jadwal terbaik untuk Anda.",
   },
 ];
 
@@ -51,10 +51,9 @@ const Faq = () => {
           className="text-center max-w-[540px] mx-auto xl:mb-20"
         >
           <Pretitle text="Faq" center />
-          <h2 className="h2 mb-3">Got Questions? We've Got You Covered</h2>
+          <h2 className="h2 mb-3">Ada Pertanyaan? Kami Bisa Membantu</h2>
           <p className="mb-11 max-w-[520px] mx-auto">
-            From work order to certification, We've answered the most
-            common questions to help you make informed decisions.
+            Berikut Pertanyaan yang sering ditanyakan oleh pelanggan kami.
           </p>
         </motion.div>
         {/* faq items */}

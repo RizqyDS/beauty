@@ -3,8 +3,9 @@
 import Image from "next/image";
 import { Link as ScrollLink } from "react-scroll";
 import CompanyLogo from "./CompanyLogo";
-import { FaCrown, FaStar } from "react-icons/fa";
-import { IoChatbubbleEllipsesSharp, IoPeople } from "react-icons/io5";
+import { FaCrown, FaStar, FaWhatsapp } from "react-icons/fa";
+import { IoPeople } from "react-icons/io5";
+import { RiPriceTag3Fill } from "react-icons/ri";
 const Hero = () => {
   return (
     <section
@@ -33,11 +34,7 @@ const Hero = () => {
           </p>
           <div className="flex gap-5">
             <button className="btn flex gap-2 btn-accent mb-8 rounded-[25px] hover:scale-110 font-semibold transition duration-300">
-              Intro Video
-            </button>
-
-            <button className="btn flex gap-2 btn-accent mb-8 rounded-[25px] hover:scale-110 font-semibold transition duration-300">
-              <IoChatbubbleEllipsesSharp className="text-2xl" />
+              <FaWhatsapp className="text-2xl" />
               Konsultasi Gratis
             </button>
           </div>
@@ -71,7 +68,7 @@ const Hero = () => {
             </div>
             <div className="absolute w-[588px] h-[380px] top-12 z-40 left-[5.5vw]">
               <p className="mb-8 rounded-[25px] bg-white w-[320px] h-[40px] gap-2 text-primary flex font-semibold items-center justify-center shadow-custom border-2 border-accent">
-                <FaCrown className="text-yellow-400" />
+                <RiPriceTag3Fill className="text-yellow-400" />
                 Harga Transparan, Hasil Natural
               </p>
             </div>

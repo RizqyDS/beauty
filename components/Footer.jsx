@@ -1,5 +1,6 @@
 import {
   RiArrowRightLine,
+  RiInstagramFill,
   RiMailFill,
   RiMapPin2Fill,
   RiPhoneFill,
@@ -18,25 +19,30 @@ const Footer = () => {
             <Link href="/" className="flex mb-6">
               <Image src="/assets/logo.png" width={220} height={48} alt="" />
             </Link>
+            <h1 className="h3 mb-4">Phong Kham Saigon Beauty</h1>
             <p className="text-border max-w-[270px] text-primary">
-              Professional in Technical Services for Calibration and Medical, NDT, Repair and Training.
+              keindahan bukanlah hasil instan semata—tetapi perpaduan seni, ilmu kedokteran, dan teknologi modern.
             </p>
           </div>
           {/* contact */}
           <div className="flex-1 text-border">
-            <h4 className="h4 text-primary mb-10 font-bold uppercase">Contact</h4>
+            <h4 className="h4 text-primary mb-10 font-bold uppercase">Kontak</h4>
             <ul className="flex flex-col gap-6">
               <li className="flex items-center gap-4">
                 <RiMapPin2Fill className="text-accent text-xl" />
-                <p className="text-primary">15315 Serpong, Indonesia</p>
+                <p className="text-primary">Phong Kham Saigon Beauty, Ho Chi Minh City, Vietnam</p>
               </li>
               <li className="flex items-center gap-4">
                 <RiPhoneFill className="text-accent text-xl" />
-                <p className="text-primary">+62 817-7083-3134</p>
+                <p className="text-primary">+62 xxx-xxxx-xxxx</p>
               </li>
               <li className="flex items-center gap-4">
                 <RiMailFill className="text-accent text-xl" />
-                <p className="text-primary">info@tri-artha.com</p>
+                <p className="text-primary">info@saigonbeauty-id.com</p>
+              </li>
+              <li className="flex items-center gap-4">
+                <RiInstagramFill className="text-accent text-xl" />
+                <p className="text-primary">@saigonbeauty.id</p>
               </li>
             </ul>
           </div>

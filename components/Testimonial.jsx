@@ -19,37 +19,37 @@ import Pretitle from "./Pretitle";
 const slides = [
   {
     img: "/assets/testimonial/img-1.png",
-    name: "Emma White",
+    name: "Ayu - 29 Tahun",
     message:
-      "The service was fantastic! Highly recommend it to anyone looking for top noth design",
+      "Saya awalnya ragu untuk operasi di luar negeri, tapi agen ini mengurus semuanya. Dari bandara sampai pulang, saya tidak merasa sendiri. Hasil hidung saya sangat natural!",
   },
   {
     img: "/assets/testimonial/img-2.png",
-    name: "Sophia Martinez",
+    name: "Diana - 43 Tahun",
     message:
-      "I couldn't be happier with the results. The website is both beautiful and functional!",
+      "Saya melakukan operasi pengencangan wajah. Dokternya profesional, fasilitasnya modern. Semua diatur rapi oleh agen di Indonesia.",
   },
   {
     img: "/assets/testimonial/img-3.png",
-    name: "David Johnson",
+    name: "David - 30 Tahun",
     message:
       "Excellent work! The project was handled professionally from start to finish!",
   },
   {
     img: "/assets/testimonial/img-4.png",
-    name: "Olivia Williams",
+    name: "Olivia - 25 Tahun",
     message:
       "Everthing was delivered on time and the design exceed my expectations",
   },
   {
     img: "/assets/testimonial/img-5.png",
-    name: "Isabella Brown",
+    name: "Isabella - 27 Tahun",
     message:
       "Amazing attention to detail. My site looks professional and user-friendly",
   },
   {
     img: "/assets/testimonial/img-6.png",
-    name: "Liam Davis",
+    name: "Ethan - 32 Tahun",
     message:
       "The team truly understood my needs. My website is faster and looks great",
   },
@@ -71,7 +71,7 @@ const Testimonial = () => {
   return (
     <div className="mt-28 py-[80px] overflow-hidden shadow-custom">
       <div className="container mx-auto">
-      <Pretitle text="Testimoni" center />
+        <Pretitle text="Testimoni" center />
         <AnimatedText
           text="Apa yang klien kami katakan?"
           textStyles="h2 mb-[30px] xl:mb-[60px] text-center"
@@ -115,8 +115,8 @@ const Testimonial = () => {
             breakpoints={{
               640: { slidesPerView: 1 },
               768: { slidesPerView: 2 },
-              1024: { slidesPerView: 3 },
-              1280: { slidesPerView: 4 },
+              1024: { slidesPerView: 2 },
+              1400: { slidesPerView: 2 },
             }}
             onSlideChange={(swiper) => setActiveSlide(swiper.realIndex)}
             //update the active slide index
