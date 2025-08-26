@@ -7,7 +7,7 @@ import { IoIosChatboxes } from "react-icons/io";
 const AboutUs = () => {
   return (
     <section
-      className="mt-[100px] w-full h-[995px] md:flex-row relative bg-accent items-center gap-12"
+      className="xl:mt-[100px] w-full h-[1900px] xl:h-[995px] md:flex-row  bg-accent items-center gap-12"
       id="about"
     >
       <div className="container mx-auto">

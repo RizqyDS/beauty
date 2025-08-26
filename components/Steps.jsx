@@ -6,7 +6,7 @@ import { TbTruckDelivery } from "react-icons/tb";
 
 const Steps = () => {
   return (
-    <section className="mt-[100px]">
+    <section className="mt-[100px] xl:mt-[100px]">
       <div className="container mx-auto">
         <div className="flex flex-col h-full items-center justify-center">
           <h2 className="h2 mb-4">Customer Journey</h2>

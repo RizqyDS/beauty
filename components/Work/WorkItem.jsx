@@ -4,7 +4,7 @@ const WorkItem = ({ img, title, description }) => {
   return (
     <div className="rounded-[30px] p-10 shadow-custom">
       <div
-        className="xl:w-[600px] xl:h-[550px] p-10 rounded-[30px] flex items-center
+        className="h-[400px] xl:w-[600px] xl:h-[550px] p-10 rounded-[30px] flex items-center
       justify-center mb-10 relative overflow-hidden  bg-[#f4f4f4] "
       >
         <Image
