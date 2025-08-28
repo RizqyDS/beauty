@@ -18,15 +18,15 @@ const Features = () => {
             alt="feature image"
           />
           <div className="flex-1 space-y-5 mt-[100px]">
-            <h2 className="text-primary text-3xl font-bold leading-tight md:text-center text-justify">
+            <h2 className="text-primary text-3xl font-bold leading-tight text-justify">
               <span className="text-accent">Perjalanan kami dimulai dari</span>{" "}
               Satu misi sederhana
             </h2>
-            <p className="text-gray-500 leading-relaxed md:text-center">
+            <p className="text-gray-500 leading-relaxed">
               Menghubungkan masyarakat Indonesia dengan layanan bedah estetika
               terbaik di Asia Tenggara.
             </p>
-            <p className="text-gray-500 leading-relaxed flex md:text-center text-justify">
+            <p className="text-gray-500 leading-relaxed flex text-justify">
               Phong Kham Saigon Beauty adalah klinik bedah plastik premium di
               pusat Ho Chi Minh City, Vietnam. Dikenal karena hasilnya yang
               natural, elegan, dan aman, klinik ini menjadi pilihan banyak klien
