@@ -104,7 +104,7 @@ const Gallery = () => {
           >
             {/* render tab triggers */}
             <TabsList
-              className="max-w-auto border-none h-full mb-[30px] flex flex-col md:flex-col
+              className="max-w-auto border-none h-full mb-[30px] flex flex-col xl:flex-row
             gap-[30px] md:gap-[50px]"
             >
               {tabData.map((item, index) => {
