@@ -7,7 +7,7 @@ import { IoIosChatboxes } from "react-icons/io";
 const AboutUs = () => {
   return (
     <section
-      className="xl:mt-[100px] w-full h-[1900px] xl:h-[995px] md:flex-row  bg-accent items-center gap-12"
+      className="xl:mt-[100px] w-full h-[2000px] xl:h-[995px] md:flex-row  bg-accent items-center gap-12"
       id="about"
     >
       <div className="container mx-auto">
@@ -15,7 +15,7 @@ const AboutUs = () => {
         <h2 className="h2 pt-3 text-white">
           Keunggulan yang membuat kami berbeda
         </h2>
-        <div className="mt-[50px] flex flex-col xl:flex-row h-full gap-[40px] xl:gap-[90px]">
+        <div className="xl:mt-[50px] flex flex-col xl:flex-row h-full gap-[30px] xl:gap-[30px]">
           <img
             className="h-[640px] object-contain mx-auto rounded-full"
             src="/assets/features/features-1.png"
@@ -26,10 +26,10 @@ const AboutUs = () => {
               <div className="bg-yellow-400 w-[100px] h-[100px] rounded-full flex items-center justify-center">
                 <PiCertificateFill className="w-[50px] h-[50px] text-white" />
               </div>
-              <h2 className="text-[20px] font-bold mt-10 text-center uppercase text-yellow-300">
+              <h2 className="text-[20px] font-bold mt-10 uppercase text-yellow-300">
                 Tim Dokter Bersertifikat Internasional
               </h2>
-              <p className="mt-5 text-white">
+              <p className=" text-white">
                 Semua prosedur dilakukan oleh dokter spesialis bedah plastik
                 yang memiliki pengalaman lebih dari 10 tahun di bidangnya.
               </p>
@@ -38,10 +38,10 @@ const AboutUs = () => {
               <div className="bg-yellow-400 w-[100px] h-[100px] rounded-full flex items-center justify-center">
                 <FaNotesMedical className="w-[50px] h-[50px] text-white" />
               </div>
-              <h2 className="text-[20px] font-bold mt-10 text-center uppercase text-yellow-300">
+              <h2 className="text-[20px] font-bold mt-10 uppercase  text-yellow-300">
                 Teknologi Medis Terkini
               </h2>
-              <p className="mt-11 text-white">
+              <p className="text-white">
                 Menggunakan peralatan medis modern setara rumah sakit
                 internasional, termasuk ruang operasi steril dengan standar WHO.
               </p>
@@ -50,10 +50,10 @@ const AboutUs = () => {
               <div className="bg-yellow-400 w-[100px] h-[100px] rounded-full flex items-center justify-center">
                 <IoIosChatboxes className="w-[50px] h-[50px] text-white" />
               </div>
-              <h2 className="text-[20px] text-center font-bold mt-10 uppercase text-yellow-300">
+              <h2 className="text-[20px] font-bold mt-10 uppercase text-yellow-300">
                 Pendekatan Personal
               </h2>
-              <p className="mt-10 text-white">
+              <p className=" text-white">
                 Setiap pasien memiliki anatomi, kebutuhan, dan ekspektasi
                 berbeda. Karena itu, semua tindakan didahului dengan konsultasi
                 detail dan medical check up untuk memastikan hasil yang sesuai
@@ -64,10 +64,10 @@ const AboutUs = () => {
               <div className="bg-yellow-400 w-[100px] h-[100px] rounded-full flex items-center justify-center">
                 <MdOutlineSupportAgent className="w-[50px] h-[50px] text-white" />
               </div>
-              <h2 className="text-[20px] text-center font-bold mt-10 uppercase text-yellow-300">
+              <h2 className="text-[20px] font-bold mt-10 uppercase text-yellow-300">
                 Pendampingan dari Indonesia
               </h2>
-              <p className="mt-5 text-white">
+              <p className=" text-white">
                 Kami sebagai agen resmi mengatur seluruh perjalanan: konsultasi
                 awal di Indonesia, pengurusan jadwal operasi, akomodasi di
                 Vietnam, hingga penerjemah selama proses medis.

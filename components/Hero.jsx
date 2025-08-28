@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { Link as ScrollLink } from "react-scroll";
 import CompanyLogo from "./CompanyLogo";
 import { FaCrown, FaStar, FaWhatsapp } from "react-icons/fa";
 import { IoPeople } from "react-icons/io5";
@@ -42,7 +41,7 @@ const Hero = () => {
 
         {/* image */}
         <div className="hidden xl:flex w-[56vw] h-[900px] absolute top-0 right-0">
-          <div className="absolute w-[588px] h-[625px] top-10 z-40 right-[15.5vw] rounded-full bg-accent">
+          <div className="absolute w-[588px] h-[625px] top-10 z-40 right-[15.5vw] rounded-full">
             <Image
               src="/assets/hero/hero.png"
               fill

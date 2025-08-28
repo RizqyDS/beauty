@@ -136,7 +136,7 @@ const Work = () => {
           >
             {/* render tab triggers */}
             <TabsList
-              className="max-w-auto border-none h-full mb-[30px] flex flex-col md:flex-row
+              className="max-w-auto border-none h-full mb-[30px] flex flex-col md:flex-col
             gap-[30px] md:gap-[50px]"
             >
               {tabData.map((item, index) => {

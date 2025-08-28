@@ -55,26 +55,6 @@ const data = [
     category: "Foto Ruangan",
     img: "/assets/gallery/ruangan/picture-6.jpg",
   },
-  {
-    category: "Video",
-    img: "/assets/gallery/video/video-1.mp4",
-  },
-  {
-    category: "Video",
-    img: "/assets/gallery/video/video-2.mp4",
-  },
-  {
-    category: "Video",
-    img: "/assets/gallery/video/video-3.mp4",
-  },
-  {
-    category: "Video",
-    img: "/assets/gallery/video/video-4.mp4",
-  },
-  {
-    category: "Video",
-    img: "/assets/gallery/video/video-5.mp4",
-  },
 ];
 
 const Gallery = () => {
@@ -124,7 +104,7 @@ const Gallery = () => {
           >
             {/* render tab triggers */}
             <TabsList
-              className="max-w-auto border-none h-full mb-[30px] flex flex-col md:flex-row
+              className="max-w-auto border-none h-full mb-[30px] flex flex-col md:flex-col
             gap-[30px] md:gap-[50px]"
             >
               {tabData.map((item, index) => {

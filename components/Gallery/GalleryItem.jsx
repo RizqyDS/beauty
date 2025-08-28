@@ -6,7 +6,7 @@ const GalleryItem = ({ img }) => {
   return (
     <div className="rounded-[30px] p-2">
       <div
-        className="h-[300px] xl:w-[250px] xl:h-[250px] p-5 rounded-[10px] flex items-center
+        className="w-full h-[400px] xl:w-[250px] xl:h-[250px] p-5 rounded-[10px] flex items-center
       justify-center mb-5 relative overflow-hidden bg-[#f4f4f4] cursor-pointer"
       >
         <Image
@@ -14,7 +14,7 @@ const GalleryItem = ({ img }) => {
           fill
           priority
           quality={100}
-          className="object-fit"
+          className="object-cover object-center"
           alt=""
           onClick={() => setIsOpen(!isOpen)}
         />
