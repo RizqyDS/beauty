@@ -16,7 +16,7 @@ const Hero = () => {
           className="relative z-20 h-full w-full xl:max-w-[600px] flex flex-col
           items-center xl:items-start justify-center text-center xl:text-left top-0"
         >
-          <p className="mb-8 rounded-[25px] bg-accent w-[450px] h-[50px] gap-2 text-white flex font-semibold items-center justify-center">
+          <p className="hidden xl:flex mb-8 rounded-[25px] bg-accent w-[450px] h-[50px] gap-2 text-white font-semibold items-center justify-center">
             <FaCrown className="text-yellow-400" />
             Tampil Percaya diri oleh Perawatan Terpercaya
           </p>
@@ -41,7 +41,7 @@ const Hero = () => {
 
         {/* image */}
         <div className="hidden xl:flex w-[56vw] h-[900px] absolute top-0 right-0">
-          <div className="absolute w-[588px] h-[625px] top-10 z-40 right-[15.5vw] rounded-full">
+          <div className="absolute w-[588px] h-[625px] top-10 z-40 right-[15.5vw] rounded-full bg-accent">
             <Image
               src="/assets/hero/hero.png"
               fill
