@@ -16,24 +16,28 @@ import { Link as ScrollLink } from "react-scroll";
 
 const links = [
   {
-    name: "home",
-    path: "home",
+    name: "beranda",
+    path: "beranda",
   },
   {
-    name: "about",
-    path: "about",
+    name: "tentang",
+    path: "tentang",
   },
   {
-    name: "services",
-    path: "services",
+    name: "pelayanan",
+    path: "pelayanan",
   },
   {
-    name: "gallery",
-    path: "gallery",
+    name: "galeri",
+    path: "galeri",
   },
   {
-    name: "contact",
-    path: "contact",
+    name: "testimoni",
+    path: "testimoni",
+  },
+  {
+    name: "kontak",
+    path: "kontak",
   },
 ];
 
@@ -71,7 +75,7 @@ const NavMobile = () => {
                     duration={500}
                     className="cursor-pointer"
                     activeClass="text-accent"
-                    onClick={()=> setIsOpen(false)} // close menu on click
+                    onClick={() => setIsOpen(false)} // close menu on click
                   >
                     {link.name}
                   </ScrollLink>
