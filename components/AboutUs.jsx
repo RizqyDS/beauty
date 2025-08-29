@@ -8,7 +8,6 @@ const AboutUs = () => {
   return (
     <section
       className="xl:mt-[100px] w-full h-[1500px] xl:h-[995px] md:flex-row  bg-accent items-center gap-12"
-      id="about"
     >
       <div className="container mx-auto">
         <div className="flex flex-col items-center justify-between">
@@ -27,7 +26,7 @@ const AboutUs = () => {
           />
           <div class="space-y-10 mt-10 px-4 md:px-0">
             <div class="flex items-center justify-center gap-6 max-w-md">
-               <div className="hidden xl:flexbg-yellow-400 w-[200px] h-[100px] rounded-full items-center justify-center">
+               <div className="hidden xl:flex bg-yellow-400 w-[200px] h-[100px] rounded-full items-center justify-center">
                 <PiCertificateFill className="w-[50px] h-[50px] text-white" />
               </div>
               <div class="space-y-2">

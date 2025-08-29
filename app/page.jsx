@@ -14,6 +14,7 @@ import Gallery from "@/components/Gallery/Gallery";
 import Topbar from "@/components/Topbar";
 import Header from "@/components/Header";
 import AboutUs from "@/components/AboutUs";
+import Profile from "@/components/Profile";
 
 const Home = () => {
   const [headerActive, setHeaderActive] = useState(false);
@@ -46,6 +47,7 @@ const Home = () => {
       </div>
       <Hero />
       <Features />
+      <Profile />
       <AboutUs />
       <Steps />
       <Stats />

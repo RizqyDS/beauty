@@ -33,7 +33,7 @@ const Stats = () => {
     <div ref={ref} className="bg-accent mt-[70px] py-10 w-full">
       <div className="container mx-auto h-full">
         <div
-          className="text-white flex flex-col items-center justify-between 
+          className="text-[#fddd72] flex flex-col items-center justify-between 
           xl:flex-row h-full gap-14 text-center xl:text-center"
         >
           {statsData.map((item, index) => {

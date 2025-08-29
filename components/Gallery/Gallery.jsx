@@ -83,11 +83,11 @@ const Gallery = () => {
   // handle loading more items
   const loadMoreItems = () => {
     //adjust the number to control how many items are loaded at a time
-    setVisibleItems((prev) => prev + 2);
+    setVisibleItems((prev) => prev + 5);
   };
 
   return (
-    <section className="pt-24 min-h-[1000px] " id="gallery">
+    <section className="pt-24 min-h-[1000px] " id="galeri">
       <div className="container mx-auto">
         <Pretitle text="Galeri" center />
         <AnimatedText

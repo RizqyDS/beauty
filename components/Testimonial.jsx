@@ -69,7 +69,7 @@ const Testimonial = () => {
   }, [swiperRef]);
 
   return (
-    <div className="mt-28 py-[80px] overflow-hidden shadow-custom">
+    <div className="mt-28 py-[80px] overflow-hidden shadow-custom" id="testimoni">
       <div className="container mx-auto">
         <Pretitle text="Testimoni" center />
         <AnimatedText

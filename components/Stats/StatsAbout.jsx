@@ -28,7 +28,7 @@ const StatsAbout = () => {
     <div ref={ref} className=" py-10 w-full">
       <div className="container mx-auto h-full">
         <div
-          className="text-[#f3d46fc7] flex flex-col items-center justify-between 
+          className="text-[#f3d46f] flex flex-col items-center justify-between 
           xl:flex-row h-full gap-10 text-center xl:text-center"
         >
           {statsData.map((item, index) => {

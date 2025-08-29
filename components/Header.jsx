@@ -24,9 +24,9 @@ const Header = () => {
               <NavMobile />
             </div>
             {/* btn */}
-            <ScrollLink to="contact" smooth>
+            <ScrollLink to="kontak" smooth>
               <button className="hidden btn xl:flex btn-accent mb-1 rounded-[25px] hover:scale-110 font-semibold transition duration-300">
-                Book Now
+                Kontak Kami
               </button>
             </ScrollLink>
           </div>

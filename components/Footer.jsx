@@ -21,7 +21,7 @@ const Footer = () => {
             </Link>
             <h1 className="h3 mb-4">Phong Kham Saigon Beauty</h1>
             <p className="text-border max-w-[270px] text-primary">
-              keindahan bukanlah hasil instan semata—tetapi perpaduan seni, ilmu kedokteran, dan teknologi modern.
+              Klinik Kami mengutamakan keindahan bukanlah hasil instan semata—tetapi perpaduan seni, ilmu kedokteran, dan teknologi modern.
             </p>
           </div>
           {/* contact */}

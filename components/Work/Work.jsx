@@ -119,7 +119,7 @@ const Work = () => {
   };
 
   return (
-    <section className="pt-24 min-h-[1000px] " id="services">
+    <section className="pt-24 min-h-[1000px] " id="pelayanan">
       <div className="container mx-auto">
         <Pretitle text="Pelayanan Kami" center />
         <AnimatedText
