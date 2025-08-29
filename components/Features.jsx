@@ -19,8 +19,7 @@ const Features = () => {
           />
           <div className="flex-1 space-y-5 mt-[50px]">
             <h2 className="text-primary text-3xl font-bold leading-tight text-justify">
-              <span className="text-accent">Perjalanan kami dimulai dari</span>{" "}
-              Satu misi sederhana
+              Perjalanan kami dimulai dari Satu misi sederhana
             </h2>
             <p className="text-gray-500 leading-relaxed">
               Menghubungkan masyarakat Indonesia dengan layanan bedah estetika

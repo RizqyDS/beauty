@@ -37,7 +37,7 @@ const Hero = () => {
           </div>
         </div>    
         {/* image */}
-        <div className="absolute w-[400px] h-[400px] xl:w-[758px] xl:h-[625px] top-[400px] xl:top-10 z-40  right-[11.5vw]">
+        <div className="absolute w-[400px] h-[400px] xl:w-[758px] xl:h-[625px] top-[400px] xl:top-10 z-40  xl:right-[10.5vw]">
           <Image
             src="/assets/hero/hero.png"
             fill
