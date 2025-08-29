@@ -5,15 +5,15 @@ import {RiInstagramFill} from "react-icons/ri";
 const socials = [
     {
         icon: <RiInstagramFill />,
-        path: "https://www.instagram.com/triarthamanunggal_/"
+        path: "https://www.instagram.com/phongkham.saigonbeauty/"
     },
     {
         icon: <FaTiktok />,
-        path: "https://www.tiktok.com/@triarthamanunggal?_t=ZS-8vtvSf2qUJW&_r=1"
+        path: ""
     },
     {
         icon: <FaLinkedin />,
-        path: "https://www.linkedin.com/company/tri-artha-manunggal/posts/"
+        path: ""
     },
 ];
 

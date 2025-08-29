@@ -27,7 +27,7 @@ const AboutUs = () => {
           />
           <div class="space-y-10 mt-10 px-4 md:px-0">
             <div class="flex items-center justify-center gap-6 max-w-md">
-               <div className="bg-yellow-400 w-[200px] h-[100px] rounded-full flex items-center justify-center">
+               <div className="hidden xl:flexbg-yellow-400 w-[200px] h-[100px] rounded-full items-center justify-center">
                 <PiCertificateFill className="w-[50px] h-[50px] text-white" />
               </div>
               <div class="space-y-2">
@@ -41,7 +41,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div class="flex items-center justify-center gap-6 max-w-md">
-              <div className="bg-yellow-400 w-[200px] h-[100px] rounded-full flex items-center justify-center">
+              <div className="hidden xl:flex bg-yellow-400 w-[200px] h-[100px] rounded-full items-center justify-center">
                 <FaNotesMedical className="w-[50px] h-[50px] text-white" />
               </div>
               <div class="space-y-2">
@@ -56,7 +56,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div class="flex items-center justify-center gap-6 max-w-md">
-              <div className="bg-yellow-400 w-[400px] h-[100px] rounded-full flex items-center justify-center">
+              <div className="hidden xl:flex bg-yellow-400 w-[400px] h-[100px] rounded-full items-center justify-center">
                 <IoIosChatboxes className="w-[50px] h-[50px] text-white" />
               </div>
               <div class="space-y-2">
@@ -72,7 +72,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div class="flex items-center justify-center gap-6 max-w-md">
-              <div className="bg-yellow-400 w-[280px] h-[100px] rounded-full flex items-center justify-center">
+              <div className="hidden xl:flex bg-yellow-400 w-[280px] h-[100px] rounded-full items-center justify-center">
                 <MdOutlineSupportAgent className="w-[50px] h-[50px] text-white" />
               </div>
               <div class="space-y-2">
