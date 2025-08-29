@@ -25,7 +25,7 @@ const Features = () => {
               Menghubungkan masyarakat Indonesia dengan layanan bedah estetika
               terbaik di Asia Tenggara.
             </p>
-            <p className="text-gray-500 leading-relaxed flex text-justify">
+            <p className="text-gray-500 leading-relaxed">
               Phong Kham Saigon Beauty adalah klinik bedah plastik premium di
               pusat Ho Chi Minh City, Vietnam. Dikenal karena hasilnya yang
               natural, elegan, dan aman, klinik ini menjadi pilihan banyak klien
