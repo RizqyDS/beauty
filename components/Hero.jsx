@@ -2,9 +2,7 @@
 
 import Image from "next/image";
 import CompanyLogo from "./CompanyLogo";
-import { FaCrown, FaStar, FaWhatsapp } from "react-icons/fa";
-import { IoPeople } from "react-icons/io5";
-import { RiPriceTag3Fill } from "react-icons/ri";
+import { FaCrown, FaWhatsapp } from "react-icons/fa";
 const Hero = () => {
   return (
     <section
@@ -38,39 +36,17 @@ const Hero = () => {
             </button>
           </div>
         </div>
-
         {/* image */}
-        <div className="hidden xl:flex w-[56vw] h-[900px] absolute top-0 right-0">
-          <div className="absolute w-[588px] h-[625px] top-10 z-40 right-[15.5vw] rounded-full bg-accent">
+        <div className="xl:flex w-[56vw] h-[900px] absolute top-0 right-0">
+          <div className="absolute w-[300px] h-[300px] xl:w-[758px] xl:h-[625px] top-10 z-40 right-[22vw] xl:right-[11.5vw]">
             <Image
               src="/assets/hero/hero.png"
               fill
               quality="100"
               priority
-              className="object-contain"
+              className="object-fit"
               alt=""
             />
-          </div>
-          {/* overlay */}
-          <div>
-            <div className="absolute w-[588px] h-[580px] bottom-1 z-40 left-[29.5vw]">
-              <p className="mb-8 rounded-[25px] bg-white w-[250px] h-[40px] gap-2 text-primary flex font-semibold items-center justify-center shadow-custom border-2 border-accent">
-                <FaStar className="text-yellow-500" />
-                Akses Klinik Kelas Dunia
-              </p>
-            </div>
-            <div className="absolute w-[588px] h-[380px] bottom-0 z-40 left-[5.5vw]">
-              <p className="mb-8 rounded-[25px] bg-white w-[390px] h-[40px] gap-2 text-primary flex font-semibold items-center justify-center shadow-custom border-2 border-accent">
-                <IoPeople className="text-yellow-400" />
-                Pendampingan Penuh & Bahasa Indonesia
-              </p>
-            </div>
-            <div className="absolute w-[588px] h-[380px] top-12 z-40 left-[5.5vw]">
-              <p className="mb-8 rounded-[25px] bg-white w-[320px] h-[40px] gap-2 text-primary flex font-semibold items-center justify-center shadow-custom border-2 border-accent">
-                <RiPriceTag3Fill className="text-yellow-400" />
-                Harga Transparan, Hasil Natural
-              </p>
-            </div>
           </div>
         </div>
       </div>

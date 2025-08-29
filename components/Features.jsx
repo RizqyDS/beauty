@@ -13,11 +13,11 @@ const Features = () => {
         </h2>
         <div className="xl:mt-20 flex flex-col xl:flex-row h-full xl:gap-[90px]">
           <img
-            className="h-[640px] object-contain mx-auto rounded-[20px]"
+            className="h-full xl:h-[640px] object-contain mx-auto rounded-[20px]"
             src="/assets/features/features.png"
             alt="feature image"
           />
-          <div className="flex-1 space-y-5 mt-[100px]">
+          <div className="flex-1 space-y-5 mt-[50px]">
             <h2 className="text-primary text-3xl font-bold leading-tight text-justify">
               <span className="text-accent">Perjalanan kami dimulai dari</span>{" "}
               Satu misi sederhana
