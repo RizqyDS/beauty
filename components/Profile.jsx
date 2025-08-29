@@ -47,11 +47,11 @@ const Profile = () => {
         <p class="mt-4">
           Di Phong Kham Saigon Beauty, keindahan bukanlah hasil instan
           semata—tetapi perpaduan seni, ilmu kedokteran, dan teknologi modern.
-          Kami mengerti, setiap klien memiliki alasan berbeda:
+          Kami mengerti, setiap klien memiliki alasan berbeda.
         </p>
         <p class="mt-4">
           Sebagai agen resmi dari Indonesia, kami memastikan perjalanan ini
-          bebas dari rasa khawatir: mulai dari konsultasi awal, perjalanan ke
+          bebas dari rasa khawatir, mulai dari konsultasi awal, perjalanan ke
           Vietnam, hingga masa pemulihan pasca operasi.
         </p>
         <h2 className="text-[20px] font-semibold text-accent mt-4">

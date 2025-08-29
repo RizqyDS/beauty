@@ -37,7 +37,7 @@ const slides = [
   },
   {
     img: "/assets/testimonial/img-4.png",
-    name: "Maya - 25 Tahun",
+    name: "Maya - 35 Tahun",
     message:
       "Di usia 35 tahun, saya menjalani prosedur facelift. Awalnya saya agak takut, tetapi dokter dan timnya membuat saya merasa nyaman. Kini wajah saya terlihat lebih segar dan awet muda.",
   },

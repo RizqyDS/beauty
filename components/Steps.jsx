@@ -1,8 +1,10 @@
 import { LucideClipboardList } from "lucide-react";
-import { AiOutlineMail } from "react-icons/ai";
-import { VscTools } from "react-icons/vsc";
+import { IoAirplaneSharp } from "react-icons/io5";
+import { WiStars } from "react-icons/wi";
+import { BiPlusMedical } from "react-icons/bi";
 import React from "react";
-import { TbTruckDelivery } from "react-icons/tb";
+import { FaCarSide } from "react-icons/fa6";
+import { MdMonitorHeart } from "react-icons/md";
 
 const Steps = () => {
   return (
@@ -34,7 +36,7 @@ const Steps = () => {
                 2
               </p>
               <div className="bg-accent w-[100px] h-[100px] rounded-full flex items-center justify-center">
-                <AiOutlineMail className="w-[50px] h-[50px] text-white" />
+                <IoAirplaneSharp className="w-[50px] h-[50px] text-white" />
               </div>
               <h2 className="text-[20px] font-semibold mt-10">
                 Perencanaan Perjalanan 
@@ -48,7 +50,7 @@ const Steps = () => {
                 3
               </p>
               <div className="bg-accent w-[100px] h-[100px] rounded-full flex items-center justify-center">
-                <VscTools className="w-[50px] h-[50px] text-white" />
+                <FaCarSide className="w-[50px] h-[50px] text-white" />
               </div>
               <h2 className="text-[20px] font-semibold mt-10">
                 Pendampingan di Vietnam 
@@ -60,7 +62,7 @@ const Steps = () => {
                 4
               </p>
               <div className="bg-accent w-[100px] h-[100px] rounded-full flex items-center justify-center">
-                <TbTruckDelivery className="w-[50px] h-[50px] text-white" />
+                <WiStars className="w-[50px] h-[50px] text-white" />
               </div>
               <h2 className="text-[20px] font-semibold mt-10">
                 Proses Operasi 
@@ -74,7 +76,7 @@ const Steps = () => {
                 5
               </p>
               <div className="bg-accent w-[100px] h-[100px] rounded-full flex items-center justify-center">
-                <TbTruckDelivery className="w-[50px] h-[50px] text-white" />
+                <BiPlusMedical className="w-[50px] h-[50px] text-white" />
               </div>
               <h2 className="text-[20px] font-semibold mt-10">
                 Pemulihan & Perawatan Pasca Operasi 
@@ -88,7 +90,7 @@ const Steps = () => {
                 6
               </p>
               <div className="bg-accent w-[100px] h-[100px] rounded-full flex items-center justify-center">
-                <TbTruckDelivery className="w-[50px] h-[50px] text-white" />
+                <MdMonitorHeart className="w-[50px] h-[50px] text-white" />
               </div>
               <h2 className="text-[20px] font-semibold mt-10">
                 Follow-Up Online 
