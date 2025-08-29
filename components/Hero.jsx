@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import CompanyLogo from "./CompanyLogo";
 import { FaCrown, FaWhatsapp } from "react-icons/fa";
 const Hero = () => {
@@ -40,11 +39,9 @@ const Hero = () => {
         {/* image */}
           <img
             src="/assets/hero/hero.png"
-            fill
             quality="100"
-            priority
-            className="object-contain"
-            alt=""
+            className="mt-8 h-[400px] xl:h-[650px] object-fit mx-auto"
+            alt="hero"
           />
         
         </div>
