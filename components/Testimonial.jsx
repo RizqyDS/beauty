@@ -33,25 +33,25 @@ const slides = [
     img: "/assets/testimonial/img-3.png",
     name: "David - 30 Tahun",
     message:
-      "Excellent work! The project was handled professionally from start to finish!",
+      "Saya melakukan operasi hidung saat berusia 27 tahun. Hasilnya sangat natural dan meningkatkan rasa percaya diri saya. Proses pemulihannya juga lebih cepat dari yang saya bayangkan.",
   },
   {
     img: "/assets/testimonial/img-4.png",
-    name: "Olivia - 25 Tahun",
+    name: "Maya - 25 Tahun",
     message:
-      "Everthing was delivered on time and the design exceed my expectations",
+      "Di usia 35 tahun, saya menjalani prosedur facelift. Awalnya saya agak takut, tetapi dokter dan timnya membuat saya merasa nyaman. Kini wajah saya terlihat lebih segar dan awet muda.",
   },
   {
     img: "/assets/testimonial/img-5.png",
-    name: "Isabella - 27 Tahun",
+    name: "Nadia - 30 Tahun",
     message:
-      "Amazing attention to detail. My site looks professional and user-friendly",
+      "Saya melakukan prosedur sedot lemak di usia 30 tahun. Hasilnya membuat bentuk tubuh saya lebih proporsional, dan saya jadi lebih percaya diri saat berpenampilan",
   },
   {
     img: "/assets/testimonial/img-6.png",
     name: "Ethan - 32 Tahun",
     message:
-      "The team truly understood my needs. My website is faster and looks great",
+      "Saya menjalani operasi kelopak mata ketika berusia 32 tahun. Setelah penyembuhan, mata saya tampak lebih hidup dan ekspresif. Banyak teman bilang saya terlihat lebih bersemangat.",
   },
 ];
 

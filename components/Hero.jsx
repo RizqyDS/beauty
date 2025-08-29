@@ -6,7 +6,7 @@ import { FaCrown, FaWhatsapp } from "react-icons/fa";
 const Hero = () => {
   return (
     <section
-      className="w-full h-[695px] pb-[30px] relative bg-gray-100 xl:white"
+      className="w-full h-[900px] xl:h-[695px] pb-[400px] xl:pb-[30px] relative bg-gray-100 xl:white"
       id="home"
     >
       <div className="container mx-auto h-full">
@@ -35,22 +35,22 @@ const Hero = () => {
               Konsultasi Gratis
             </button>
           </div>
-        </div>
+        </div>    
         {/* image */}
-        <div className="xl:flex w-[56vw] h-[900px] absolute top-0 right-0">
-          <div className="absolute w-[300px] h-[300px] xl:w-[758px] xl:h-[625px] top-10 z-40 right-[22vw] xl:right-[11.5vw]">
-            <Image
-              src="/assets/hero/hero.png"
-              fill
-              quality="100"
-              priority
-              className="object-fit"
-              alt=""
-            />
-          </div>
+        <div className="absolute w-[400px] h-[400px] xl:w-[758px] xl:h-[625px] top-[400px] xl:top-10 z-40  right-[11.5vw]">
+          <Image
+            src="/assets/hero/hero.png"
+            fill
+            quality="100"
+            priority
+            className="object-contain mx-auto"
+            alt=""
+          />
         </div>
       </div>
-      <CompanyLogo />
+      <div className="pt-[270px] xl:pt-[0px]">
+      <CompanyLogo/>
+      </div>
     </section>
   );
 };

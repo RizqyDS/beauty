@@ -4,7 +4,7 @@ import StatsAbout from "./Stats/StatsAbout";
 
 const Features = () => {
   return (
-    <section className="pt-[160px] md:flex-r items-center gap-12" id="about">
+    <section className="pt-[50px] xl:pt-[160px] md:flex-r items-center gap-12" id="about">
       <div className="container mx-auto">
         <Pretitle text="Tentang Kami" center />
         <h2 className="h2 mb-8 text-center">
