@@ -18,7 +18,7 @@ const CompanyLogo = () => {
                       alt="company"
                       height={350}
                       width={400}
-                      className="min-w-[350px] w-[200px] h-[20px] xl:h-[50px] object-none"
+                      className="min-w-[350px] w-[200px] h-[40px] xl:h-[50px] object-none"
                     />
                   </div>
                 ))}
