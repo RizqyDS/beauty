@@ -16,9 +16,9 @@ const CompanyLogo = () => {
                     <Image
                       src={`/assets/company/com-${index + 1}.png`}
                       alt="company"
-                      height={350}
+                      height={250}
                       width={400}
-                      className="min-w-[350px] w-[200px] h-[40px] xl:h-[50px] object-none"
+                      className="min-w-[300px] w-[100px] h-[20px] xl:h-[50px] object-contain xl:object-none"
                     />
                   </div>
                 ))}

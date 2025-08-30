@@ -1,6 +1,6 @@
 import Link from "next/link"
-import {FaLinkedin, FaTiktok} from "react-icons/fa"
-import {RiInstagramFill} from "react-icons/ri";
+import { FaLocationDot } from "react-icons/fa6";
+import {RiInstagramFill, RiWhatsappFill} from "react-icons/ri";
 
 const socials = [
     {
@@ -8,11 +8,11 @@ const socials = [
         path: "https://www.instagram.com/phongkham.saigonbeauty/"
     },
     {
-        icon: <FaTiktok />,
-        path: ""
+        icon: <FaLocationDot />,
+        path: "https://maps.app.goo.gl/pbipY4UyvA5dwiEa6"
     },
     {
-        icon: <FaLinkedin />,
+        icon: <RiWhatsappFill />,
         path: ""
     },
 ];
