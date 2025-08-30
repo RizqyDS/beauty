@@ -73,10 +73,6 @@ const Footer = () => {
       {/* copyright */}
       <div className="mx-auto xl:px-10 py-12 flex flex-col gap-6 xl:flex-row items-center justify-center bg-accent">
         <p className="text-white font-semibold">Copyright &copy; 2025 All rights reserved.</p>
-        <Socials
-          containerStyles="flex gap-6 text-white"
-          iconStyles="hover:text-white transition-all"
-        />
       </div>
     </footer>
   );

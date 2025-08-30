@@ -1,4 +1,4 @@
-import { RiMailFill, RiWhatsappFill } from "react-icons/ri";
+import { RiInstagramFill, RiMailFill, RiWhatsappFill } from "react-icons/ri";
 import Socials from "./Socials";
 import { FaLocationDot } from "react-icons/fa6";
 
@@ -20,7 +20,13 @@ const Topbar = () => {
               >
                 <RiWhatsappFill />
               </div>
-              <a className="font-medium text-white hover:scale-105 transition duration-200" href="" target="_blank">+62 XXXX XXXX XXXX</a>
+              <a
+                className="font-medium text-white hover:scale-105 transition duration-200"
+                href=""
+                target="_blank"
+              >
+                +62 XXXX XXXX XXXX
+              </a>
             </div>
             {/* mail */}
             <div className="flex items-center">
@@ -30,7 +36,12 @@ const Topbar = () => {
               >
                 <RiMailFill />
               </div>
-              <a className="font-medium text-white hover:scale-105 transition duration-200" href="mailto:info@tri-artha.com?subject=Feedback&body=Message">info@saigonbeauty-id.com</a>
+              <a
+                className="font-medium text-white hover:scale-105 transition duration-200"
+                href="mailto:info@tri-artha.com?subject=Feedback&body=Message"
+              >
+                info@saigonbeauty-id.com
+              </a>
             </div>
             {/* location */}
             <div className="flex items-center">
@@ -40,14 +51,31 @@ const Topbar = () => {
               >
                 <FaLocationDot />
               </div>
-              <a className="font-medium text-white hover:scale-105 transition duration-200" target="_blank" href="https://maps.app.goo.gl/pbipY4UyvA5dwiEa6">Phong Kham Saigon Beauty, Ho Chi Minh City, Vietnam</a>
+              <a
+                className="font-medium text-white hover:scale-105 transition duration-200"
+                target="_blank"
+                href="https://maps.app.goo.gl/pbipY4UyvA5dwiEa6"
+              >
+                Phong Kham Saigon Beauty, Ho Chi Minh City, Vietnam
+              </a>
+            </div>
+            {/* instagram */}
+            <div className="flex items-center">
+              <div
+                className="w-8 h-8 text-white flex items-center 
+              justify-center"
+              >
+                <RiInstagramFill />
+              </div>
+              <a
+                className="font-medium text-white hover:scale-105 transition duration-200"
+                href="https://www.instagram.com/phongkham.saigonbeauty/"
+                target="_blank"
+              >
+                SaigonBeauty.ID
+              </a>
             </div>
           </div>
-          {/* socials */}
-          <Socials
-            containerStyles="flex items-center gap-8 mx-auto xl:mx-3"
-            iconStyles="text-primary"
-          />
         </div>
       </div>
     </section>
