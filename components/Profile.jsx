@@ -1,6 +1,13 @@
 import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 
+const whatsApp = () => {
+  window.open(
+    "https://api.whatsapp.com/send/?phone=628111780091&text&type=phone_number&app_absent=0",
+    "_blank"
+  );
+}
+
 const Profile = () => {
   return (
     <section class="pt-[150px] pb-[100px] flex flex-col md:flex-row items-center justify-center gap-[100px] max-md:px-4">
@@ -32,7 +39,7 @@ const Profile = () => {
             </div>
           </div>
           <p class="text-sm font-medium text-slate-800">
-            Join our developer community
+            Come & Join with us
           </p>
         </div>
       </div>
@@ -62,7 +69,7 @@ const Profile = () => {
           layanan operasi plastik berkualitas internasional, dengan pengalaman
           yang aman, nyaman, transparan dan dengan biaya yang terjangkau.
         </p>
-        <button className="btn flex gap-2 btn-accent mt-8 rounded-[25px] hover:scale-110 font-semibold transition duration-300">
+        <button onClick={whatsApp} className="btn flex gap-2 btn-accent mt-8 rounded-[25px] hover:scale-110 font-semibold transition duration-300">
           <FaWhatsapp className="text-2xl" />
           Konsultasi Gratis
         </button>

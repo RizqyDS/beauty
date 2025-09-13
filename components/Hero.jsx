@@ -1,7 +1,8 @@
 "use client";
 
+import { Link as ScrollLink } from "react-scroll";
 import CompanyLogo from "./CompanyLogo";
-import { FaCrown, FaWhatsapp } from "react-icons/fa";
+import { FaCrown } from "react-icons/fa";
 const Hero = () => {
   return (
     <section
@@ -30,10 +31,11 @@ const Hero = () => {
               berkelas internasional.
             </p>
             <div className="flex gap-5">
-              <button className="btn flex gap-2 btn-accent mb-5 rounded-[25px] hover:scale-110 font-semibold transition duration-300">
-                <FaWhatsapp className="text-2xl" />
-                Konsultasi Gratis
-              </button>
+              <ScrollLink to="tentang" smooth>
+                <button className="btn flex gap-2 btn-accent mb-5 rounded-[25px] hover:scale-110 font-semibold transition duration-300">
+                  Jelajahi Kami
+                </button>
+              </ScrollLink>
             </div>
           </div>
           {/* image */}
@@ -45,9 +47,8 @@ const Hero = () => {
           />
         </div>
       </div>
-      
-        <CompanyLogo />
-     
+
+      <CompanyLogo />
     </section>
   );
 };

@@ -22,10 +22,10 @@ const Topbar = () => {
               </div>
               <a
                 className="font-medium text-white hover:scale-105 transition duration-200"
-                href=""
+                href="https://api.whatsapp.com/send/?phone=628111780091&text&type=phone_number&app_absent=0"
                 target="_blank"
               >
-                +62 XXXX XXXX XXXX
+                +62 811-1780-091
               </a>
             </div>
             {/* mail */}
@@ -69,7 +69,7 @@ const Topbar = () => {
               </div>
               <a
                 className="font-medium text-white hover:scale-105 transition duration-200"
-                href="https://www.instagram.com/phongkham.saigonbeauty/"
+                href="https://www.instagram.com/cece_hochiminh/"
                 target="_blank"
               >
                 SaigonBeauty.ID
