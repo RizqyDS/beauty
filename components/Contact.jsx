@@ -77,10 +77,10 @@ const Contact = () => {
                     </h2>
                     <p className="mb-2">Team Kami siap membantu dan menghadirkan solusi.</p>
                     <p className="font-semibold text-primary mb-2">
-                      +62 xxx-xxxx-xxxx
+                      +62 811-1780-091
                     </p>
                     <a
-                      href="https://www.google.com/maps/place/PT.+Tri+Artha+Manunggal/@-6.3487958,106.7013641,1131m/data=!3m2!1e3!4b1!4m6!3m5!1s0x2e69e59ecb949715:0x92c560f7f005e026!8m2!3d-6.3487958!4d106.703939!16s%2Fg%2F1pzwmnyv5!5m1!1e1?authuser=0&entry=ttu&g_ep=EgoyMDI1MDQxNC4xIKXMDSoASAFQAw%3D%3D"
+                      href="https://api.whatsapp.com/send/?phone=628111780091&text&type=phone_number&app_absent=0"
                       target="_blank"
                       className=" text-primary underline"
                     >

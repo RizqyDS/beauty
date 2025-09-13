@@ -17,7 +17,7 @@ const Footer = () => {
           {/* logo & text */}
           <div className="flex-1">
             <Link href="/" className="flex mb-6">
-              <Image src="/assets/logo.png" width={220} height={48} alt="" />
+              <Image src="/assets/logo.png" width={220} height={48} quality="100" alt="" />
             </Link>
             <h1 className="h3 mb-4">Phong Kham Saigon Beauty</h1>
             <p className="text-border max-w-[270px] text-primary">
@@ -34,7 +34,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-4">
                 <RiPhoneFill className="text-accent text-xl" />
-                <p className="text-primary">+62 xxx-xxxx-xxxx</p>
+                <p className="text-primary">+62 811-1780-091</p>
               </li>
               <li className="flex items-center gap-4">
                 <RiMailFill className="text-accent text-xl" />

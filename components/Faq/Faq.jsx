@@ -7,19 +7,19 @@ import { fadeIn } from "@/lib/variants";
 const faqItemsData = [
   {
     title: "Perawatan apa saja yang tersedia di klinik kecantikan ini?",
-    description: "Kami menyediakan berbagai layanan seperti facial, perawatan kulit berjerawat, anti-aging, filler & botox, treatment laser, hingga body contouring. Semua ditangani oleh tenaga medis profesional.",
+    description: "Kami menyediakan berbagai layanan seperti facelift,linoplasi dll.",
   },
   {
     title: "Apakah perawatan di klinik ini aman?",
-    description: "Ya, seluruh perawatan dilakukan oleh dokter berpengalaman dengan peralatan berstandar medis, serta menggunakan produk yang sudah terdaftar BPOM dan aman digunakan.",
+    description: "Ya, seluruh perawatan dilakukan oleh dokter yang sudah berpengalaman di bidangnya dan sudah lebih dari 10 tahun.",
   },
   {
-    title: "Berapa lama hasil perawatan akan terlihat?",
-    description: "Setiap orang memiliki kondisi kulit berbeda. Beberapa perawatan bisa menunjukkan hasil langsung setelah sesi pertama, sementara lainnya membutuhkan beberapa kali treatment untuk hasil optimal.",
+    title: "Berapa lama perawatan akan terlihat?",
+    description: "Setiap orang memiliki kondisi kulit dan tubuh yang berbeda, beberapa perawatan dan Tindakan bisa menunjukan hasil langsung setelah 1 hingga 3 bulan pertama Sementara dalam beberapa case mungkin membutuhkan waktu lebih.",
   },
   {
     title: "Apakah perlu konsultasi sebelum melakukan perawatan?",
-    description: "Tentu. Konsultasi awal sangat penting agar dokter dapat menganalisis kondisi kulit Anda dan merekomendasikan perawatan yang paling sesuai dengan kebutuhan.",
+    description: "Tentu, konsultasi awal sangat penting agar dokter dapat menganalisis kondisi kulit dan bentuk tubuh anda , serta dapat merekomendasikan Tindakan yang sesuai dengan kebutuhan.",
   },
   {
     title: "Bagaimana cara membuat janji atau booking perawatan?",

@@ -68,25 +68,6 @@ const data = [
     title: "Brazilian Butt Lift",
     description: "Membentuk bokong ideal.",
   },
-  {
-    category: "Perawatan Non-Bedah",
-    img: "/assets/work/perawatan/work-1.png",
-    title: "Filler & Botox ",
-    description: "Peremajaan wajah instan.",
-  },
-  {
-    category: "Perawatan Non-Bedah",
-    img: "/assets/work/perawatan/work-2.png",
-    title: "Thread Lift",
-    description: "Mengencangkan kulit tanpa operasi.",
-  },
-  {
-    category: "Perawatan Non-Bedah",
-    img: "/assets/work/industrial/industrial-4.png",
-    title: "Laser Kulit ",
-    description:
-      "Menghilangkan flek, bekas jerawat, dan meratakan warna kulit.",
-  },
 ];
 
 const Work = () => {

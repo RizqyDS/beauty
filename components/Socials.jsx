@@ -1,19 +1,19 @@
 import Link from "next/link"
-import { FaLocationDot } from "react-icons/fa6";
+import { FaTiktok } from "react-icons/fa";
 import {RiInstagramFill, RiWhatsappFill} from "react-icons/ri";
 
 const socials = [
     {
         icon: <RiInstagramFill />,
-        path: "https://www.instagram.com/phongkham.saigonbeauty/"
+        path: "https://www.instagram.com/cece_hochiminh/"
     },
     {
-        icon: <FaLocationDot />,
-        path: "https://maps.app.goo.gl/pbipY4UyvA5dwiEa6"
+        icon: <FaTiktok />,
+        path: "https://www.tiktok.com/@yelly.suwardi?lang=en"
     },
     {
         icon: <RiWhatsappFill />,
-        path: ""
+        path: "https://api.whatsapp.com/send/?phone=628111780091&text&type=phone_number&app_absent=0"
     },
 ];
 

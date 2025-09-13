@@ -1,6 +1,7 @@
 import { RiInstagramFill, RiMailFill, RiWhatsappFill } from "react-icons/ri";
 import Socials from "./Socials";
 import { FaLocationDot } from "react-icons/fa6";
+import { FaTiktok } from "react-icons/fa";
 
 const Topbar = () => {
   return (
@@ -34,13 +35,13 @@ const Topbar = () => {
                 className="w-8 h-8 text-white flex items-center 
               justify-center"
               >
-                <RiMailFill />
+                <FaTiktok />
               </div>
               <a
                 className="font-medium text-white hover:scale-105 transition duration-200"
-                href="mailto:info@tri-artha.com?subject=Feedback&body=Message"
+                href="https://www.tiktok.com/@yelly.suwardi?lang=en"
               >
-                info@saigonbeauty-id.com
+                Yelly Suwardi
               </a>
             </div>
             {/* location */}
