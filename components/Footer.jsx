@@ -17,11 +17,11 @@ const Footer = () => {
           {/* logo & text */}
           <div className="flex-1">
             <Link href="/" className="flex mb-6">
-              <Image src="/assets/logo.png" width={220} height={48} quality="100" alt="" />
+              <Image src="/assets/features/profile.png" width={220} height={48} quality="100" alt="" />
             </Link>
             <h1 className="h3 mb-4">Phong Kham Saigon Beauty</h1>
             <p className="text-border max-w-[270px] text-primary">
-              Klinik Kami mengutamakan keindahan bukanlah hasil instan semata—tetapi perpaduan seni, ilmu kedokteran, dan teknologi modern.
+              Klinik Kami menghadirkan perawatan kecantikan dengan standar medis terbaik, aman, dan terpercaya untuk menjaga keselamatan serta kenyamanan Anda.
             </p>
           </div>
           {/* contact */}
@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
       </div>
       {/* copyright */}
-      <div className="mx-auto xl:px-10 py-12 flex flex-col gap-6 xl:flex-row items-center justify-center bg-accent">
+      <div className="mx-auto xl:px-4 py-10 flex flex-col gap-6 xl:flex-row items-center justify-center bg-accent">
         <p className="text-white font-semibold">Copyright &copy; 2025 All rights reserved.</p>
       </div>
     </footer>
