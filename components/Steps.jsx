@@ -42,7 +42,7 @@ const Steps = () => {
                 Perencanaan Perjalanan 
               </h2>
               <p className="mt-5">
-                Tiket, hotel, dan jadwal operasi kami atur sesuai preferensi.
+                Tiket, hotel dan jadwal operasi kami atur sesuai preferensi.
               </p>
             </div>
             <div className="flex flex-col items-center justify-center">

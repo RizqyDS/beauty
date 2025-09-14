@@ -84,7 +84,7 @@ const Contact = () => {
                       target="_blank"
                       className=" text-primary underline"
                     >
-                      Live Chat
+                      Live Chat {`>>`}
                     </a>
                   </div>
                 </div>
@@ -106,7 +106,7 @@ const Contact = () => {
                       target="_blank"
                       className=" text-primary underline"
                     >
-                      Cek Lokasi
+                      Cek Lokasi {`>>`}
                     </a>
                     <p className="font-semibold mt-4 mb-2">Klinik</p>
                     <p className="mb-2">
@@ -117,7 +117,7 @@ const Contact = () => {
                       target="_blank"
                       className=" text-primary underline"
                     >
-                      Cek Lokasi
+                      Cek Lokasi {`>>`}
                     </a>
                   </div>
                 </div>
@@ -157,7 +157,7 @@ const Contact = () => {
                         htmlFor="username"
                         className="block mb-2 text-sm font-medium text-primary"
                       >
-                        User Name <span className="text-accent">*</span>
+                        Nama Anda <span className="text-accent">*</span>
                       </label>
                       <input
                         onChange={handleChange}
@@ -166,7 +166,7 @@ const Contact = () => {
                         name="username"
                         value={formData.username}
                         className="input"
-                        placeholder="User Name"
+                        placeholder="Nama Anda"
                         required
                       />
                       <ValidationError
@@ -190,7 +190,7 @@ const Contact = () => {
                         name="email"
                         value={formData.email}
                         className="input"
-                        placeholder="youremail@email.com"
+                        placeholder="emailanda@email.com"
                         required
                       />
                       <ValidationError
@@ -205,7 +205,7 @@ const Contact = () => {
                         htmlFor="phone"
                         className="block mb-2 text-sm font-medium text-primary"
                       >
-                        Phone number <span className="text-accent">*</span>
+                        Nomor Telepon <span className="text-accent">*</span>
                       </label>
                       <input
                         onChange={handleChange}
@@ -224,7 +224,7 @@ const Contact = () => {
                         htmlFor="message"
                         className="block mb-2 text-sm font-medium text-primary"
                       >
-                        Message <span className="text-accent">*</span>
+                        Pesan <span className="text-accent">*</span>
                       </label>
                       <textarea
                         onChange={handleChange}
@@ -232,7 +232,7 @@ const Contact = () => {
                         name="message"
                         value={formData.message}
                         className="textarea"
-                        placeholder="Leave me a message..."
+                        placeholder="Silahkan isi pesan..."
                         rows="5"
                         required
                       />

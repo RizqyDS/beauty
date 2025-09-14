@@ -8,24 +8,232 @@ import Pretitle from "../Pretitle";
 // sample data for projects with various categories
 const data = [
   {
-    category: "Foto Klinik",
-    img: "/assets/videos/video-1.mp4",
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-1.mp4",
   },
   {
-    category: "Foto Klinik",
-    img: "/assets/videos/video-2.mp4",
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-2.mp4",
   },
   {
-    category: "Foto Klinik",
-    img: "/assets/videos/video-3.mp4",
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-3.mp4",
   },
   {
-    category: "Foto Klinik",
-    img: "/assets/videos/video-4.mp4",
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-4.mp4",
   },
   {
-    category: "Foto Klinik",
-    img: "/assets/videos/video-5.mp4",
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-5.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-6.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-7.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-8.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-9.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-10.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-1.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-2.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-3.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-4.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-5.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-6.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-7.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-8.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-9.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-10.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-11.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-12.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-13.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-14.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-15.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-16.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-17.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-18.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-19.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-20.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-21.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-22.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-23.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-24.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-25.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-26.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-27.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-28.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-29.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-30.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-31.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-32.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-33.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-34.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-35.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-36.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-37.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-38.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-39.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-40.mp4",
+  },
+  {
+    category: "Video Pasien",
+    img: "/assets/videos/videoPasien/video-41.mp4",
+  },
+  {
+    category: "Video Klinik",
+    img: "/assets/videos/videoKlinik/video-1.mp4",
+  },
+  {
+    category: "Video Klinik",
+    img: "/assets/videos/videoKlinik/video-2.mp4",
+  },
+  {
+    category: "Video Ruangan",
+    img: "/assets/videos/videoRuangan/video-1.mp4",
+  },
+  {
+    category: "Video Ruangan",
+    img: "/assets/videos/videoRuangan/video-2.mp4",
+  },
+  {
+    category: "Video Ruangan",
+    img: "/assets/videos/videoRuangan/video-3.mp4",
+  },
+  {
+    category: "Video Ruangan",
+    img: "/assets/videos/videoRuangan/video-4.mp4",
   },
 ];
 
@@ -37,19 +245,19 @@ const Video = () => {
 
   // create tab data with "all" category and unique categories from data
   const tabData = [
-    { category: "semua foto" },
+    { category: "semua video" },
     ...uniqueCategories.map((category) => ({ category })),
   ];
 
   // state to manage the currently selected tab
-  const [tabValue, setTabValue] = useState("semua foto");
+  const [tabValue, setTabValue] = useState("semua video");
   // number of items to show initially
-  const [visibleItems, setVisibleItems] = useState();
+  const [visibleItems, setVisibleItems] = useState(6);
 
   //filter Video items based on the selected tab
   const filterVideo =
-    tabValue === "semua foto"
-      ? data.filter((item) => item.category !== "semua foto")
+    tabValue === "semua video"
+      ? data.filter((item) => item.category !== "semua video")
       : data.filter((item) => item.category === tabValue);
 
   // handle loading more items
@@ -67,9 +275,37 @@ const Video = () => {
           textStyles="h2 mb-[30px] text-center xl:mb-0"
         />
         <Tabs
-          defaultValue="semua foto"
+          defaultValue="semua video"
           className="w-full  flex flex-col mt-12 items-center"
         >
+          <div
+            className="flex flex-col xl:flex-row items-center xl:items-start
+            xl:justify-between mb-[30px]"
+          >
+            {/* render tab triggers */}
+            <TabsList
+              className="max-w-auto border-none h-full mb-[30px] flex flex-col xl:flex-row
+            gap-[30px] md:gap-[50px]"
+            >
+              {tabData.map((item, index) => {
+                return (
+                  <TabsTrigger
+                    value={item.category}
+                    key={index}
+                    className={`uppercase w-[200px] h-[50px] ${
+                      setTabValue === item.category
+                        ? "text-white"
+                        : "text-primary"
+                    }`}
+                    onClick={() => setTabValue(item.category)}
+                  >
+                    {item.category}
+                  </TabsTrigger>
+                );
+              })}
+            </TabsList>
+          </div>
+
           {/* render content for the selected tab */}
           <TabsContent value={tabValue} className="w-full">
             <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-[10px]">

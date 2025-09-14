@@ -11,7 +11,7 @@ const CompanyLogo = () => {
                 key={containerIndex}
                 className="inline-flex items-center gap-[5px] mr-[50px]"
               >
-                {Array.from({ length: 11 }).map((_, index) => (
+                {Array.from({ length: 10 }).map((_, index) => (
                   <div className="inline-block" key={index}>
                     <Image
                       src={`/assets/company/com-${index + 1}.png`}
