@@ -33,7 +33,7 @@ const slides = [
     img: "/assets/testimonial/img-3.png",
     name: "Matilda - 30 Tahun",
     message:
-      "Saya melakukan operasi hidung saat berusia 27 tahun. Hasilnya sangat natural dan meningkatkan rasa percaya diri saya. Proses pemulihannya juga lebih cepat dari yang saya bayangkan.",
+      "Saya melakukan operasi payudara saat berusia 30 tahun. Hasilnya sangat natural dan meningkatkan rasa percaya diri saya. Proses pemulihannya juga lebih cepat dari yang saya bayangkan.",
   },
   {
     img: "/assets/testimonial/img-4.png",
