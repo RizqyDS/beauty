@@ -4,24 +4,24 @@ import CountUp from "react-countup";
 
 const statsData = [
   {
-    endCountNum: 20,
-    endCountText: "+",
-    text: "Years of Experience",
+    endCountNum: 9,
+    endCountText: "/10",
+    text: "Rating dari Klien",
   },
   {
     endCountNum: 99,
     endCountText: "%",
-    text: "Client Satisfaction",
+    text: "Kepuasan Klien",
   },
   {
     endCountNum: 250,
     endCountText: "/year",
-    text: "Successfull Orders",
+    text: "Permintaan Operasi",
   },
   {
     endCountNum: 50,
     endCountText: "+",
-    text: "Clients Subscribe",
+    text: "Klien Berlangganan",
   },
 ];
 

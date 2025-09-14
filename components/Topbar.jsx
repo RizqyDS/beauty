@@ -26,7 +26,7 @@ const Topbar = () => {
                 href="https://api.whatsapp.com/send/?phone=628111780091&text&type=phone_number&app_absent=0"
                 target="_blank"
               >
-                +62 811-1780-091
+                Live Chat
               </a>
             </div>
             {/* mail */}
@@ -41,7 +41,7 @@ const Topbar = () => {
                 className="font-medium text-white hover:scale-105 transition duration-200"
                 href="https://www.tiktok.com/@yelly.suwardi?lang=en"
               >
-                Yelly Suwardi
+                Tiktok
               </a>
             </div>
             {/* location */}
@@ -57,7 +57,7 @@ const Topbar = () => {
                 target="_blank"
                 href="https://maps.app.goo.gl/pbipY4UyvA5dwiEa6"
               >
-                Phong Kham Saigon Beauty, Ho Chi Minh City, Vietnam
+                Lokasi Klinik
               </a>
             </div>
             {/* instagram */}
@@ -73,7 +73,7 @@ const Topbar = () => {
                 href="https://www.instagram.com/cece_hochiminh/"
                 target="_blank"
               >
-                SaigonBeauty.ID
+                Instagram
               </a>
             </div>
           </div>
