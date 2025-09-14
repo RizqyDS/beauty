@@ -16,8 +16,8 @@ const data = [
   {
     category: "Bedah Wajah",
     img: "/assets/work/bedahWajah/work-2.png",
-    title: "Blepharoplasty",
-    description: "Hidung mancung natural, sesuai proporsi wajah.",
+    title: "Eye Lift",
+    description: "Membuat tampilan mata lebih segar & awet muda.",
   },
   {
     category: "Bedah Wajah",

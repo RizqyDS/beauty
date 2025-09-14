@@ -18,7 +18,7 @@ const Steps = () => {
           {/* steps */}
           <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-3 gap-[50px] text-center">
             <div className="flex flex-col items-center justify-center">
-              <p className="relative bg-[#fddd72] w-8 h-8 rounded-full text-white flex items-center justify-center mr-[150px]">
+              <p className="relative bg-[#f1c635] w-8 h-8 rounded-full text-white flex items-center justify-center mr-[150px]">
                 1
               </p>
               <div className="bg-accent w-[100px] h-[100px] rounded-full flex items-center justify-center">
@@ -32,7 +32,7 @@ const Steps = () => {
               </p>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <p className="relative bg-[#fddd72] w-8 h-8 rounded-full text-white flex items-center justify-center mr-[150px]">
+              <p className="relative bg-[#f1c635] w-8 h-8 rounded-full text-white flex items-center justify-center mr-[150px]">
                 2
               </p>
               <div className="bg-accent w-[100px] h-[100px] rounded-full flex items-center justify-center">
@@ -46,7 +46,7 @@ const Steps = () => {
               </p>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <p className="relative bg-[#fddd72] w-8 h-8 rounded-full text-white flex items-center justify-center mr-[150px]">
+              <p className="relative bg-[#f1c635] w-8 h-8 rounded-full text-white flex items-center justify-center mr-[150px]">
                 3
               </p>
               <div className="bg-accent w-[100px] h-[100px] rounded-full flex items-center justify-center">
@@ -58,7 +58,7 @@ const Steps = () => {
               <p className="mt-5">Penjemputan di bandara, pengantaran ke klinik, penerjemah bahasa Indonesia.</p>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <p className="relative bg-[#fddd72] w-8 h-8 rounded-full text-white flex items-center justify-center mr-[150px]">
+              <p className="relative bg-[#f1c635] w-8 h-8 rounded-full text-white flex items-center justify-center mr-[150px]">
                 4
               </p>
               <div className="bg-accent w-[100px] h-[100px] rounded-full flex items-center justify-center">
@@ -72,7 +72,7 @@ const Steps = () => {
               </p>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <p className="relative bg-[#fddd72] w-8 h-8 rounded-full text-white flex items-center justify-center mr-[150px]">
+              <p className="relative bg-[#f1c635] w-8 h-8 rounded-full text-white flex items-center justify-center mr-[150px]">
                 5
               </p>
               <div className="bg-accent w-[100px] h-[100px] rounded-full flex items-center justify-center">
@@ -86,7 +86,7 @@ const Steps = () => {
               </p>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <p className="relative bg-[#fddd72] w-8 h-8 rounded-full text-white flex items-center justify-center mr-[150px]">
+              <p className="relative bg-[#f1c635] w-8 h-8 rounded-full text-white flex items-center justify-center mr-[150px]">
                 6
               </p>
               <div className="bg-accent w-[100px] h-[100px] rounded-full flex items-center justify-center">

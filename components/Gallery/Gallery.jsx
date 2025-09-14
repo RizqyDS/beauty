@@ -32,6 +32,114 @@ const data = [
     img: "/assets/gallery/pasien/picture-1.jpg",
   },
   {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-2.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-3.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-4.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-5.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-6.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-7.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-8.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-9.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-10.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-11.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-12.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-13.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-14.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-15.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-16.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-17.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-18.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-19.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-20.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-21.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-22.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-23.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-24.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-25.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-26.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-27.jpg",
+  },
+  {
+    category: "Foto Pasien",
+    img: "/assets/gallery/pasien/picture-28.jpg",
+  },
+  {
     category: "Foto Ruangan",
     img: "/assets/gallery/ruangan/picture-1.jpg",
   },
@@ -55,6 +163,14 @@ const data = [
     category: "Foto Ruangan",
     img: "/assets/gallery/ruangan/picture-6.jpg",
   },
+  {
+    category: "Foto Ruangan",
+    img: "/assets/gallery/ruangan/picture-7.jpg",
+  },
+  {
+    category: "Foto Ruangan",
+    img: "/assets/gallery/ruangan/picture-8.jpg",
+  },
 ];
 
 const Gallery = () => {
@@ -72,7 +188,7 @@ const Gallery = () => {
   // state to manage the currently selected tab
   const [tabValue, setTabValue] = useState("semua foto");
   // number of items to show initially
-  const [visibleItems, setVisibleItems] = useState();
+  const [visibleItems, setVisibleItems] = useState(10);
 
   //filter Gallery items based on the selected tab
   const filterGallery =
