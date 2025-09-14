@@ -31,7 +31,7 @@ const slides = [
   },
   {
     img: "/assets/testimonial/img-3.png",
-    name: "David - 30 Tahun",
+    name: "Matilda - 30 Tahun",
     message:
       "Saya melakukan operasi hidung saat berusia 27 tahun. Hasilnya sangat natural dan meningkatkan rasa percaya diri saya. Proses pemulihannya juga lebih cepat dari yang saya bayangkan.",
   },
@@ -49,7 +49,7 @@ const slides = [
   },
   {
     img: "/assets/testimonial/img-6.png",
-    name: "Ethan - 32 Tahun",
+    name: "Rini - 32 Tahun",
     message:
       "Saya menjalani operasi kelopak mata ketika berusia 32 tahun. Setelah penyembuhan, mata saya tampak lebih hidup dan ekspresif. Banyak teman bilang saya terlihat lebih bersemangat.",
   },
