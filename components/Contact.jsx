@@ -97,17 +97,6 @@ const Contact = () => {
                     <h2 className="text-[22px] font-bold font-primary leading-none mb-2">
                       Office
                     </h2>
-                    <p className="mb-2 font-semibold">Kantor Pusat</p>
-                    <p className="mb-2">
-                      Jakarta
-                    </p>
-                    <a
-                      href="https://www.google.com/maps/place/PT.+Tri+Artha+Manunggal/@-6.3487958,106.7013641,1131m/data=!3m2!1e3!4b1!4m6!3m5!1s0x2e69e59ecb949715:0x92c560f7f005e026!8m2!3d-6.3487958!4d106.703939!16s%2Fg%2F1pzwmnyv5!5m1!1e1?authuser=0&entry=ttu&g_ep=EgoyMDI1MDQxNC4xIKXMDSoASAFQAw%3D%3D"
-                      target="_blank"
-                      className=" text-primary underline"
-                    >
-                      Cek Lokasi {`>>`}
-                    </a>
                     <p className="font-semibold mt-4 mb-2">Klinik</p>
                     <p className="mb-2">
                       Phong Kham Saigon Beauty, Ho Chi Minh City, Vietnam
