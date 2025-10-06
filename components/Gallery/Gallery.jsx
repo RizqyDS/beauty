@@ -8,167 +8,167 @@ import Pretitle from "../Pretitle";
 // sample data for projects with various categories
 const data = [
   {
-    category: "Foto Klinik",
+    category: "Klinik - Operasi",
     img: "/assets/gallery/klinik/picture-1.jpg",
   },
   {
-    category: "Foto Klinik",
+    category: "Klinik - Operasi",
     img: "/assets/gallery/klinik/picture-2.jpg",
   },
   {
-    category: "Foto Klinik",
+    category: "Klinik - Operasi",
     img: "/assets/gallery/klinik/picture-3.jpg",
   },
   {
-    category: "Foto Klinik",
+    category: "Klinik - Operasi",
     img: "/assets/gallery/klinik/picture-4.jpg",
   },
   {
-    category: "Foto Klinik",
+    category: "Klinik - Operasi",
     img: "/assets/gallery/klinik/picture-5.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Wajah",
     img: "/assets/gallery/pasien/picture-1.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Wajah",
     img: "/assets/gallery/pasien/picture-2.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Wajah",
     img: "/assets/gallery/pasien/picture-3.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Wajah",
     img: "/assets/gallery/pasien/picture-4.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Payudara",
     img: "/assets/gallery/pasien/picture-5.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Payudara",
     img: "/assets/gallery/pasien/picture-6.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Payudara",
     img: "/assets/gallery/pasien/picture-7.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Payudara",
     img: "/assets/gallery/pasien/picture-8.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Payudara",
     img: "/assets/gallery/pasien/picture-9.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Payudara",
     img: "/assets/gallery/pasien/picture-10.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Payudara",
     img: "/assets/gallery/pasien/picture-11.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Wajah",
     img: "/assets/gallery/pasien/picture-12.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Wajah",
     img: "/assets/gallery/pasien/picture-13.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Wajah",
     img: "/assets/gallery/pasien/picture-14.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Wajah",
     img: "/assets/gallery/pasien/picture-15.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Wajah",
     img: "/assets/gallery/pasien/picture-16.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Wajah",
     img: "/assets/gallery/pasien/picture-17.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Wajah",
     img: "/assets/gallery/pasien/picture-18.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Wajah",
     img: "/assets/gallery/pasien/picture-19.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Payudara",
     img: "/assets/gallery/pasien/picture-20.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Payudara",
     img: "/assets/gallery/pasien/picture-21.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Payudara",
     img: "/assets/gallery/pasien/picture-22.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Payudara",
     img: "/assets/gallery/pasien/picture-23.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Payudara",
     img: "/assets/gallery/pasien/picture-24.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Payudara",
     img: "/assets/gallery/pasien/picture-25.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Payudara",
     img: "/assets/gallery/pasien/picture-26.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Payudara",
     img: "/assets/gallery/pasien/picture-27.jpg",
   },
   {
-    category: "Foto Pasien",
+    category: "Operasi Payudara",
     img: "/assets/gallery/pasien/picture-28.jpg",
   },
   {
-    category: "Foto Ruangan",
+    category: "Klinik - Operasi",
     img: "/assets/gallery/ruangan/picture-1.jpg",
   },
   {
-    category: "Foto Ruangan",
+    category: "Klinik - Operasi",
     img: "/assets/gallery/ruangan/picture-2.jpg",
   },
   {
-    category: "Foto Ruangan",
+    category: "Klinik - Operasi",
     img: "/assets/gallery/ruangan/picture-3.jpg",
   },
   {
-    category: "Foto Ruangan",
+    category: "Klinik - Operasi",
     img: "/assets/gallery/ruangan/picture-4.jpg",
   },
   {
-    category: "Foto Ruangan",
+    category: "Klinik - Operasi",
     img: "/assets/gallery/ruangan/picture-5.jpg",
   },
   {
-    category: "Foto Ruangan",
+    category: "Klinik - Operasi",
     img: "/assets/gallery/ruangan/picture-6.jpg",
   },
   {
-    category: "Foto Ruangan",
+    category: "Klinik - Operasi",
     img: "/assets/gallery/ruangan/picture-7.jpg",
   },
   {
-    category: "Foto Ruangan",
+    category: "Klinik - Operasi",
     img: "/assets/gallery/ruangan/picture-8.jpg",
   },
 ];

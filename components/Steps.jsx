@@ -11,9 +11,9 @@ const Steps = () => {
     <section className="mt-[100px] xl:mt-[100px]">
       <div className="container mx-auto">
         <div className="flex flex-col h-full items-center justify-center">
-          <h2 className="h2 mb-4">Customer Journey</h2>
+          <h2 className="h2 mb-4">Perjalanan Klien</h2>
           <p className="mb-10 text-center">
-            Perjalanan Klien dari Indonesia ke Vietnam
+            Tahapan perjalanan dari Indonesia ke Vietnam
           </p>
           {/* steps */}
           <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-3 gap-[50px] text-center">

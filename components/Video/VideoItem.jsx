@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-const VideoItem = ({ img }) => {
+const VideoItem = ({ img, title }) => {
   const [isOpen, setIsOpen] = useState(false);
-  return (
-    <div className="rounded-[30px] p-2">
+  return (  
+    <div className="rounded-[30px] mt-5 p-3 shadow-custom">
       <div className="relative group flex-grow transition-all w-full h-[300px] duration-500 cursor-pointer">
         <div className="absolute inset-0 flex justify-center items-center">
           <div className="bg-black bg-opacity-60 rounded-full p-3">
@@ -24,6 +24,7 @@ const VideoItem = ({ img }) => {
           onClick={() => setIsOpen(true)}
         />
       </div>
+      <h3 className="mt-5 text-center text-black font-semibold uppercase">{title}</h3>
       {isOpen && (
         <div
           className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50"
