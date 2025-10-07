@@ -1,5 +1,4 @@
 import { RiInstagramFill, RiMailFill, RiWhatsappFill } from "react-icons/ri";
-import Socials from "./Socials";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa";
 

@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { FaCheckCircle, FaWhatsapp } from "react-icons/fa";
-import { RiChat1Line, RiMapPin2Line } from "react-icons/ri";
-import { TbDeviceLandlinePhone } from "react-icons/tb";
+import { RiMapPin2Line } from "react-icons/ri";
 import { AiOutlineMail } from "react-icons/ai";
 
 const Contact = () => {
@@ -121,7 +120,7 @@ const Contact = () => {
                     </h2>
                     <p className="mb-2">Silahkan kirimkan konsultasi Anda melalui email.</p>
                     <p className="font-semibold text-primary mt-2">
-                      info@saigonbeauty-id.com
+                      royalvvip78@gmail.com 
                     </p>
                   </div>
                 </div>
